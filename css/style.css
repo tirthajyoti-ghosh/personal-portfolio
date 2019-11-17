@@ -51,3 +51,39 @@ nav a:hover{
   color: #BE3144;
   text-align: center;
 }
+
+#projects{
+  background-color: #45567C ;
+  text-align: center;
+}
+#project-heading{
+  font-size: 40px;
+  color: white;
+  padding-top:20px;
+}
+#wrapper{
+  display: inline-block;
+}
+#project-area{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+  
+}
+.project-image{
+  width:300px;
+  height:300px;
+  
+}
+.project-desc{
+  background-color:#303740;
+  color:white;
+  font-size:16px;
+}
+.project-tile{
+  
+  margin: 25px;
+  
+}
+
